@@ -16,7 +16,7 @@ const NavBarLinks = (props) => {
           <section className="top-bar-section">
             <ul>
               <li>
-                <Link to="/events"> Your Events </Link>
+                <Link to="/calendar"> Your Calendar </Link>
               </li>
               <li>
                 <Link to="/vips"> V.I.P.s </Link>
@@ -31,7 +31,7 @@ const NavBarLinks = (props) => {
       <div className="hide-for-small-only desktop-top-bar text-center">
         <Column medium={10} offsetOnMedium={1} large={8} offsetOnLarge={2}>
           <Column small={4}>
-            <Link className="phl" to="/events"> Your Events </Link>
+            <Link className="phl" to="/events"> Your Calendar </Link>
           </Column>
           <Column small={4}>
             <Link className="phl" to="/vips"> V.I.P.s </Link>

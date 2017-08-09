@@ -33,9 +33,11 @@ class EventsIndexPage extends Component {
 
     return(
       <div id="events-index-page">
-        <h2 className="top-header mbl">Your Events</h2>
+        <h2 className="top-header mbl">Calendar</h2>
         <Column small={12} medium={10} offsetOnMedium={1}>
-          { eventList }
+
+          hello
+
         </Column>
       </div>
     )

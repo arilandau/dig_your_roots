@@ -3,7 +3,7 @@
 .welcome-message {
   font-size: 3rem;
   font-weight: bold;
-  color: $seafoam-green;
+  color: $teal;
   border: 3px;
   border-color: $seafoam-green;
   border-style: solid;
@@ -16,6 +16,6 @@
     margin: 20px 150px;
   }
   @media only screen and (max-width: 456px) {
-    margin: 10px 55px; 
+    margin: 10px 55px;
   }
 }

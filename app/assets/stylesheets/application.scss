@@ -22,6 +22,14 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+a {
+  color: $teal;
+}
+
+a:hover {
+  color: $seafoam-green;
+}
+
 body {
   font-family: $regular-font;
 }
@@ -41,7 +49,7 @@ h1, h2 {
 }
 
 .error-text {
-  color: #FF69B4;
+  color: $pink;
 }
 
 .black-text {
